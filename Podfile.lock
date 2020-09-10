@@ -1,0 +1,27 @@
+PODS:
+  - LXCarKeyboardManager (1.0.0):
+    - LXDarkModeManager
+    - LXFitManager
+  - LXDarkModeManager (1.3.0)
+  - LXFitManager (1.1.0)
+
+DEPENDENCIES:
+  - LXCarKeyboardManager (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - LXDarkModeManager
+    - LXFitManager
+
+EXTERNAL SOURCES:
+  LXCarKeyboardManager:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LXCarKeyboardManager: 041ab85e61592f6f955cd6280519e560eb8d4784
+  LXDarkModeManager: 6b40cca9ab71661b164adeb8bc2218fd67aac955
+  LXFitManager: d76fa8e60a899fccf87c66fe33e19479e1d64906
+
+PODFILE CHECKSUM: 26543d0f0786eecf4746193f9b7d0e186ff446a7
+
+COCOAPODS: 1.9.3

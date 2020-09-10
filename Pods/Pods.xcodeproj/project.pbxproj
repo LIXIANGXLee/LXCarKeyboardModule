@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0297AC9DDF943DE47F94233A02AC3CFC /* LXKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6C8167305B42FCB326B1FC8471E4948 /* LXKeyboard.bundle */; };
+		109A8FF5F0F66AA51CBB67C77C52CDEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B19920852AE4B581C36C6EB0C821D9F /* Foundation.framework */; };
+		111AA6FB2E424B79F3C8D56675EC0694 /* LXFitManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D08ABF11A892E545891739E756BD54 /* LXFitManager-dummy.m */; };
+		113C1CF61D58BB3EA052D87BEEAB6F94 /* LXCarKeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B480FEEC5549B0B7296A144520E9F5 /* LXCarKeyboardModel.swift */; };
+		1BB8582AECDDDA5E035BC3B8DB38065B /* LXDarkModeManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F6D4F3E1E54D38B008182DAAF38F00 /* LXDarkModeManager.framework */; };
+		241897FEA4DB27D58A33F2A2D7F9A7F9 /* Pods-LXCarKeyboardModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 271E58BE16BBD9714827611A16E343F2 /* Pods-LXCarKeyboardModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D09F8151ED0E8FC764AD520E3008B14 /* LXFitManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B95FFCD49F7528612493C7EEA2C46E /* LXFitManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DB8A54E4FCE833EDC633433AF14DB46 /* Pods-LXCarKeyboardModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAF558EC1BB29B9EA4FFEF45D8FB072 /* Pods-LXCarKeyboardModule-dummy.m */; };
+		420D6203C3BA64DAD7E5E1FE6D066D4C /* LXString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74923D4421D1B28A3EBD9FD8B65D0D99 /* LXString+Extension.swift */; };
+		4DEC5F37A89795492E39F38E3A9E94F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B19920852AE4B581C36C6EB0C821D9F /* Foundation.framework */; };
+		5368BAF1F780FFBC80EDA49AC83F4B45 /* LXCarKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 642BC9CB8890C63E392655267DC0C4A6 /* LXCarKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5448B2B52D65A9604DDCB088E663799D /* LXColorDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB61C7AE902BB52349A7FF509A41C0 /* LXColorDarkMode.swift */; };
+		5E65AC57A0F3C30E946E17057F9BB49F /* LXCarKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D30004C2AE4647BEC64CED4DC866D /* LXCarKeyboard.swift */; };
+		6900E3CEB6418379F209E1BDE2E515D7 /* LXDarkModeManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC96DFBDB62FF6D625B8CE9D7FE5157 /* LXDarkModeManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F14D0D40F53ACAA22ACE2DFBA13B121 /* LXDarkModeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 130BF83C1790DB86ECD55A106FD83A47 /* LXDarkModeManager-dummy.m */; };
+		9247EB0CC386C6478BFAE5AC2F8A2FF9 /* LXFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDB3257617162E5CE52DDE6EDAA3EB /* LXFit.swift */; };
+		9CE74057833F038BB28A4084ECA4078A /* LXImageDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8716B060D16B26748C4DB19BE136FB8 /* LXImageDarkMode.swift */; };
+		B69FAE9CECFA22CE79EE00C698F8B2D4 /* LXCarKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B8AA3AEB673D1FBA1B1D94483C118 /* LXCarKeyboardManager-dummy.m */; };
+		B795C17E4E84467E95B560938337D56C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B19920852AE4B581C36C6EB0C821D9F /* Foundation.framework */; };
+		C309E86555F3A88B47D428CC9C684BA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B19920852AE4B581C36C6EB0C821D9F /* Foundation.framework */; };
+		FA78645639FC0F7E7D0D0CD33B35A3AA /* LXFitManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FB9733C9E6497D2CEF2E42B3982738 /* LXFitManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E1D82CF5CB1A474D4D50DE378B11D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED050C8B9768109B203E0B9CBBCAEC1;
+			remoteInfo = LXFitManager;
+		};
+		7C9EDC08B51BCC27DCDFD3C119FCEA8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4714FE027266A6FDE6E50E23F725ED6F;
+			remoteInfo = LXCarKeyboardManager;
+		};
+		80BEC1B909DB2B8C4EDF9146F52F07AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED050C8B9768109B203E0B9CBBCAEC1;
+			remoteInfo = LXFitManager;
+		};
+		8BEACED6E02F72297038E3D4E45A3D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AAC99605E8CC7AFBBF9C1EEA0ED18B;
+			remoteInfo = LXDarkModeManager;
+		};
+		9C882BAEDC5E47336003BD1BEF3B196F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6AAC99605E8CC7AFBBF9C1EEA0ED18B;
+			remoteInfo = LXDarkModeManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F6D4F3E1E54D38B008182DAAF38F00 /* LXDarkModeManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXDarkModeManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9F73085F3BCB8D22EA291B8CBF9D0E /* LXFitManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXFitManager.modulemap; sourceTree = "<group>"; };
+		0C6EB99D79814D017D6439F4F735933F /* LXCarKeyboardManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXCarKeyboardManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		12912492A87D6B4AEE8AB3CD3F0D2FF0 /* Pods-LXCarKeyboardModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXCarKeyboardModule.release.xcconfig"; sourceTree = "<group>"; };
+		130BF83C1790DB86ECD55A106FD83A47 /* LXDarkModeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXDarkModeManager-dummy.m"; sourceTree = "<group>"; };
+		15B5D47D7EF0373E5940F74B177258E8 /* LXCarKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXCarKeyboardManager.framework; path = LXCarKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1797012F98ED5EBD883366386F793062 /* LXDarkModeManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXDarkModeManager-Info.plist"; sourceTree = "<group>"; };
+		18FB9733C9E6497D2CEF2E42B3982738 /* LXFitManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXFitManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B8958D6C34E022DFF5D626F916FD31 /* LXDarkModeManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXDarkModeManager.modulemap; sourceTree = "<group>"; };
+		271E58BE16BBD9714827611A16E343F2 /* Pods-LXCarKeyboardModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXCarKeyboardModule-umbrella.h"; sourceTree = "<group>"; };
+		28D9C87A4B67A31E24EB5A1E6752965E /* LXFitManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXFitManager-Info.plist"; sourceTree = "<group>"; };
+		2B19920852AE4B581C36C6EB0C821D9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		31A933E5C8D4E286469E4C585C9D2888 /* Pods-LXCarKeyboardModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXCarKeyboardModule.modulemap"; sourceTree = "<group>"; };
+		31AE84E5E101E422B326149AC2AE9368 /* LXFitManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXFitManager-prefix.pch"; sourceTree = "<group>"; };
+		3561DADACB7782F892C1401C5D978569 /* LXFitManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXFitManager.release.xcconfig; sourceTree = "<group>"; };
+		3888DD53BBE7B7DFC0D5D8540E57BE76 /* LXFitManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXFitManager.framework; path = LXFitManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D08ABF11A892E545891739E756BD54 /* LXFitManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXFitManager-dummy.m"; sourceTree = "<group>"; };
+		3BA607CDC0E4DCF8D242B8F41F686BDB /* Pods-LXCarKeyboardModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXCarKeyboardModule-Info.plist"; sourceTree = "<group>"; };
+		3C1B8AA3AEB673D1FBA1B1D94483C118 /* LXCarKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXCarKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		4EAF558EC1BB29B9EA4FFEF45D8FB072 /* Pods-LXCarKeyboardModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXCarKeyboardModule-dummy.m"; sourceTree = "<group>"; };
+		52B480FEEC5549B0B7296A144520E9F5 /* LXCarKeyboardModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXCarKeyboardModel.swift; path = LXCarKeyboardManager/LXCarKeyboardModel.swift; sourceTree = "<group>"; };
+		5383139155C149099AFC750CF1FADF1B /* Pods-LXCarKeyboardModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXCarKeyboardModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		54E9A897F0A039D8074ADDA59AA08DF3 /* LXCarKeyboardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXCarKeyboardManager.release.xcconfig; sourceTree = "<group>"; };
+		62B95FFCD49F7528612493C7EEA2C46E /* LXFitManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXFitManager-umbrella.h"; sourceTree = "<group>"; };
+		642BC9CB8890C63E392655267DC0C4A6 /* LXCarKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXCarKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		67D7FF0B6BDDE4FCC0CB6D6994E7F4C4 /* LXDarkModeManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXDarkModeManager.framework; path = LXDarkModeManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74923D4421D1B28A3EBD9FD8B65D0D99 /* LXString+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LXString+Extension.swift"; path = "LXCarKeyboardManager/LXString+Extension.swift"; sourceTree = "<group>"; };
+		760B01A65C7C084BAA525B9274676E18 /* LXCarKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXCarKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		779D30004C2AE4647BEC64CED4DC866D /* LXCarKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXCarKeyboard.swift; path = LXCarKeyboardManager/LXCarKeyboard.swift; sourceTree = "<group>"; };
+		7E1EBA70F4C9F7E76617A0DC10DB7E53 /* LXCarKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXCarKeyboardManager-Info.plist"; sourceTree = "<group>"; };
+		81AA7ADDA3674C7A9C9D93B39E8AD494 /* Pods-LXCarKeyboardModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXCarKeyboardModule-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81B6A56BCC81E517421DAD7ABC5D27D8 /* Pods-LXCarKeyboardModule-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXCarKeyboardModule-frameworks.sh"; sourceTree = "<group>"; };
+		8A043A847DE36ED2340CE67E98549D43 /* LXCarKeyboardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXCarKeyboardManager.debug.xcconfig; sourceTree = "<group>"; };
+		8CC96DFBDB62FF6D625B8CE9D7FE5157 /* LXDarkModeManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXDarkModeManager-umbrella.h"; sourceTree = "<group>"; };
+		94F22FE6EF7E67134E4078EA972A1739 /* LXDarkModeManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXDarkModeManager.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A57D2B3DE91845AEC15343F6E0502133 /* Pods-LXCarKeyboardModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXCarKeyboardModule.debug.xcconfig"; sourceTree = "<group>"; };
+		A88383511CAD04B9E8856167F91C4331 /* Pods_LXCarKeyboardModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXCarKeyboardModule.framework; path = "Pods-LXCarKeyboardModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDB61C7AE902BB52349A7FF509A41C0 /* LXColorDarkMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXColorDarkMode.swift; path = LXDarkModeManager/LXColorDarkMode.swift; sourceTree = "<group>"; };
+		B6C8167305B42FCB326B1FC8471E4948 /* LXKeyboard.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = LXKeyboard.bundle; path = LXCarKeyboardManager/LXKeyboard.bundle; sourceTree = "<group>"; };
+		B85AB5694EF3433CDDAD4DE16A197D39 /* LXDarkModeManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXDarkModeManager-prefix.pch"; sourceTree = "<group>"; };
+		D806890B6A9A9470BAF4356E82463D7A /* LXCarKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXCarKeyboardManager.modulemap; sourceTree = "<group>"; };
+		D8716B060D16B26748C4DB19BE136FB8 /* LXImageDarkMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXImageDarkMode.swift; path = LXDarkModeManager/LXImageDarkMode.swift; sourceTree = "<group>"; };
+		DC32F5D381779FA4043924470A759B0A /* LXDarkModeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXDarkModeManager.release.xcconfig; sourceTree = "<group>"; };
+		ECBDB3257617162E5CE52DDE6EDAA3EB /* LXFit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LXFit.swift; path = LXFitManager/LXFit.swift; sourceTree = "<group>"; };
+		F70730F90866A38CBA7DF16EB396576D /* LXFitManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXFitManager.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E153A5E2923B2BF362C925A7BED71B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109A8FF5F0F66AA51CBB67C77C52CDEC /* Foundation.framework in Frameworks */,
+				1BB8582AECDDDA5E035BC3B8DB38065B /* LXDarkModeManager.framework in Frameworks */,
+				FA78645639FC0F7E7D0D0CD33B35A3AA /* LXFitManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E2DC7B3EA189BBE6F6DCD023116345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C309E86555F3A88B47D428CC9C684BA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C0EE48EE645FAC6FB9DBD47BEFC857F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B795C17E4E84467E95B560938337D56C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FBB7BD71DF50E6044E49FE096640C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEC5F37A89795492E39F38E3A9E94F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01158B43E0FD6C46074714F7D1E6AB60 /* Pods-LXCarKeyboardModule */ = {
+			isa = PBXGroup;
+			children = (
+				31A933E5C8D4E286469E4C585C9D2888 /* Pods-LXCarKeyboardModule.modulemap */,
+				81AA7ADDA3674C7A9C9D93B39E8AD494 /* Pods-LXCarKeyboardModule-acknowledgements.markdown */,
+				5383139155C149099AFC750CF1FADF1B /* Pods-LXCarKeyboardModule-acknowledgements.plist */,
+				4EAF558EC1BB29B9EA4FFEF45D8FB072 /* Pods-LXCarKeyboardModule-dummy.m */,
+				81B6A56BCC81E517421DAD7ABC5D27D8 /* Pods-LXCarKeyboardModule-frameworks.sh */,
+				3BA607CDC0E4DCF8D242B8F41F686BDB /* Pods-LXCarKeyboardModule-Info.plist */,
+				271E58BE16BBD9714827611A16E343F2 /* Pods-LXCarKeyboardModule-umbrella.h */,
+				A57D2B3DE91845AEC15343F6E0502133 /* Pods-LXCarKeyboardModule.debug.xcconfig */,
+				12912492A87D6B4AEE8AB3CD3F0D2FF0 /* Pods-LXCarKeyboardModule.release.xcconfig */,
+			);
+			name = "Pods-LXCarKeyboardModule";
+			path = "Target Support Files/Pods-LXCarKeyboardModule";
+			sourceTree = "<group>";
+		};
+		257DA8EF13C8382A9615CE58CB816DAB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0C6EB99D79814D017D6439F4F735933F /* LXCarKeyboardManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2BABB9A08A8CCFF93DCAE3044478C870 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F73085F3BCB8D22EA291B8CBF9D0E /* LXFitManager.modulemap */,
+				39D08ABF11A892E545891739E756BD54 /* LXFitManager-dummy.m */,
+				28D9C87A4B67A31E24EB5A1E6752965E /* LXFitManager-Info.plist */,
+				31AE84E5E101E422B326149AC2AE9368 /* LXFitManager-prefix.pch */,
+				62B95FFCD49F7528612493C7EEA2C46E /* LXFitManager-umbrella.h */,
+				F70730F90866A38CBA7DF16EB396576D /* LXFitManager.debug.xcconfig */,
+				3561DADACB7782F892C1401C5D978569 /* LXFitManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LXFitManager";
+			sourceTree = "<group>";
+		};
+		376EBB371101BEFE9963D0766CBCD59C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21B8958D6C34E022DFF5D626F916FD31 /* LXDarkModeManager.modulemap */,
+				130BF83C1790DB86ECD55A106FD83A47 /* LXDarkModeManager-dummy.m */,
+				1797012F98ED5EBD883366386F793062 /* LXDarkModeManager-Info.plist */,
+				B85AB5694EF3433CDDAD4DE16A197D39 /* LXDarkModeManager-prefix.pch */,
+				8CC96DFBDB62FF6D625B8CE9D7FE5157 /* LXDarkModeManager-umbrella.h */,
+				94F22FE6EF7E67134E4078EA972A1739 /* LXDarkModeManager.debug.xcconfig */,
+				DC32F5D381779FA4043924470A759B0A /* LXDarkModeManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LXDarkModeManager";
+			sourceTree = "<group>";
+		};
+		891262E8ED84B05B1D2B313D86F5054A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B19920852AE4B581C36C6EB0C821D9F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8B1799FE09EEDBF25FF05ABC945278C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F6D4F3E1E54D38B008182DAAF38F00 /* LXDarkModeManager.framework */,
+				18FB9733C9E6497D2CEF2E42B3982738 /* LXFitManager.framework */,
+				891262E8ED84B05B1D2B313D86F5054A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91971614A72AE512B393B497B41EE7B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6C8167305B42FCB326B1FC8471E4948 /* LXKeyboard.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A21C26F63CA594AB6BE5B78B21F5E2EB /* LXDarkModeManager */ = {
+			isa = PBXGroup;
+			children = (
+				ADDB61C7AE902BB52349A7FF509A41C0 /* LXColorDarkMode.swift */,
+				D8716B060D16B26748C4DB19BE136FB8 /* LXImageDarkMode.swift */,
+				376EBB371101BEFE9963D0766CBCD59C /* Support Files */,
+			);
+			name = LXDarkModeManager;
+			path = LXDarkModeManager;
+			sourceTree = "<group>";
+		};
+		A3FEBF89C99A3382BC653B08C8F5542E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF7666AA790E2D6C4642D5A6197C26 /* LXCarKeyboardManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B963AD49D1410874E3626AAD46CB4720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15B5D47D7EF0373E5940F74B177258E8 /* LXCarKeyboardManager.framework */,
+				67D7FF0B6BDDE4FCC0CB6D6994E7F4C4 /* LXDarkModeManager.framework */,
+				3888DD53BBE7B7DFC0D5D8540E57BE76 /* LXFitManager.framework */,
+				A88383511CAD04B9E8856167F91C4331 /* Pods_LXCarKeyboardModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22942C933C7E0201AD8DE26A649E460 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D806890B6A9A9470BAF4356E82463D7A /* LXCarKeyboardManager.modulemap */,
+				3C1B8AA3AEB673D1FBA1B1D94483C118 /* LXCarKeyboardManager-dummy.m */,
+				7E1EBA70F4C9F7E76617A0DC10DB7E53 /* LXCarKeyboardManager-Info.plist */,
+				760B01A65C7C084BAA525B9274676E18 /* LXCarKeyboardManager-prefix.pch */,
+				642BC9CB8890C63E392655267DC0C4A6 /* LXCarKeyboardManager-umbrella.h */,
+				8A043A847DE36ED2340CE67E98549D43 /* LXCarKeyboardManager.debug.xcconfig */,
+				54E9A897F0A039D8074ADDA59AA08DF3 /* LXCarKeyboardManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/LXCarKeyboardManager";
+			sourceTree = "<group>";
+		};
+		C3E1930CF7D323B2086DF0319E8EA2F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A21C26F63CA594AB6BE5B78B21F5E2EB /* LXDarkModeManager */,
+				FA9EEA71E9B244BBCBABD56E2F46963D /* LXFitManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAA29A5B912837E014D33E388B4D5C10 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01158B43E0FD6C46074714F7D1E6AB60 /* Pods-LXCarKeyboardModule */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A3FEBF89C99A3382BC653B08C8F5542E /* Development Pods */,
+				8B1799FE09EEDBF25FF05ABC945278C8 /* Frameworks */,
+				C3E1930CF7D323B2086DF0319E8EA2F0 /* Pods */,
+				B963AD49D1410874E3626AAD46CB4720 /* Products */,
+				CAA29A5B912837E014D33E388B4D5C10 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F2FF7666AA790E2D6C4642D5A6197C26 /* LXCarKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				779D30004C2AE4647BEC64CED4DC866D /* LXCarKeyboard.swift */,
+				52B480FEEC5549B0B7296A144520E9F5 /* LXCarKeyboardModel.swift */,
+				74923D4421D1B28A3EBD9FD8B65D0D99 /* LXString+Extension.swift */,
+				257DA8EF13C8382A9615CE58CB816DAB /* Pod */,
+				91971614A72AE512B393B497B41EE7B1 /* Resources */,
+				C22942C933C7E0201AD8DE26A649E460 /* Support Files */,
+			);
+			name = LXCarKeyboardManager;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FA9EEA71E9B244BBCBABD56E2F46963D /* LXFitManager */ = {
+			isa = PBXGroup;
+			children = (
+				ECBDB3257617162E5CE52DDE6EDAA3EB /* LXFit.swift */,
+				2BABB9A08A8CCFF93DCAE3044478C870 /* Support Files */,
+			);
+			name = LXFitManager;
+			path = LXFitManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FFC6EA3AC378AF23CFF25344C69F31F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241897FEA4DB27D58A33F2A2D7F9A7F9 /* Pods-LXCarKeyboardModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9D22610540E53BC6BB11BAAE5896ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D09F8151ED0E8FC764AD520E3008B14 /* LXFitManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B241D4E8953D6987B0DA5827771EB0BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6900E3CEB6418379F209E1BDE2E515D7 /* LXDarkModeManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC74AC4F0CA7D1EBE20A432D263C36F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5368BAF1F780FFBC80EDA49AC83F4B45 /* LXCarKeyboardManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4714FE027266A6FDE6E50E23F725ED6F /* LXCarKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335972ED94DEB5F73E4038FDEDC9E2B9 /* Build configuration list for PBXNativeTarget "LXCarKeyboardManager" */;
+			buildPhases = (
+				CFC74AC4F0CA7D1EBE20A432D263C36F /* Headers */,
+				1A7DAA507508812AC83BD45FB37E649E /* Sources */,
+				5E153A5E2923B2BF362C925A7BED71B8 /* Frameworks */,
+				568CC4838C7070BA1AFD84FD96D675B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6797E9C7BB9A559029A0F5B0B5760D13 /* PBXTargetDependency */,
+				CE41F1D8A0AB221D6DF5527FFF654BB3 /* PBXTargetDependency */,
+			);
+			name = LXCarKeyboardManager;
+			productName = LXCarKeyboardManager;
+			productReference = 15B5D47D7EF0373E5940F74B177258E8 /* LXCarKeyboardManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E3C7159DC982201272D962DDC0CEFF3 /* Pods-LXCarKeyboardModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A3A7CC3679FCC21C706BAEC6FD677F /* Build configuration list for PBXNativeTarget "Pods-LXCarKeyboardModule" */;
+			buildPhases = (
+				9FFC6EA3AC378AF23CFF25344C69F31F /* Headers */,
+				E8EBE6BD9E669E7C0B2F9DFF6151F2C5 /* Sources */,
+				71E2DC7B3EA189BBE6F6DCD023116345 /* Frameworks */,
+				B6DD48B7994E36DE0FB233915964DD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5416F6B6D5E0F3E9CBFAB7ACBE697A /* PBXTargetDependency */,
+				EDF521BAEBDEB331909B3B582DE98147 /* PBXTargetDependency */,
+				225ADE781CFCBC87D92F8D10AD141BE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-LXCarKeyboardModule";
+			productName = "Pods-LXCarKeyboardModule";
+			productReference = A88383511CAD04B9E8856167F91C4331 /* Pods_LXCarKeyboardModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8ED050C8B9768109B203E0B9CBBCAEC1 /* LXFitManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5D3793CEF75745A3CF2357ED8A4741 /* Build configuration list for PBXNativeTarget "LXFitManager" */;
+			buildPhases = (
+				AB9D22610540E53BC6BB11BAAE5896ED /* Headers */,
+				55C0A2D7E63E4BC957F62B6DC9125574 /* Sources */,
+				DD7FBB7BD71DF50E6044E49FE096640C /* Frameworks */,
+				69335C718185ED76CD4E7AB5E76D7C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXFitManager;
+			productName = LXFitManager;
+			productReference = 3888DD53BBE7B7DFC0D5D8540E57BE76 /* LXFitManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6AAC99605E8CC7AFBBF9C1EEA0ED18B /* LXDarkModeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51FE9ABE16F910E0C6114423765BDE81 /* Build configuration list for PBXNativeTarget "LXDarkModeManager" */;
+			buildPhases = (
+				B241D4E8953D6987B0DA5827771EB0BE /* Headers */,
+				0D0E35153413F5BE54C427A804E97AA9 /* Sources */,
+				7C0EE48EE645FAC6FB9DBD47BEFC857F /* Frameworks */,
+				3E040E626CBE50A7352C1EFF329D378A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXDarkModeManager;
+			productName = LXDarkModeManager;
+			productReference = 67D7FF0B6BDDE4FCC0CB6D6994E7F4C4 /* LXDarkModeManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B963AD49D1410874E3626AAD46CB4720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4714FE027266A6FDE6E50E23F725ED6F /* LXCarKeyboardManager */,
+				A6AAC99605E8CC7AFBBF9C1EEA0ED18B /* LXDarkModeManager */,
+				8ED050C8B9768109B203E0B9CBBCAEC1 /* LXFitManager */,
+				7E3C7159DC982201272D962DDC0CEFF3 /* Pods-LXCarKeyboardModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E040E626CBE50A7352C1EFF329D378A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568CC4838C7070BA1AFD84FD96D675B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0297AC9DDF943DE47F94233A02AC3CFC /* LXKeyboard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69335C718185ED76CD4E7AB5E76D7C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DD48B7994E36DE0FB233915964DD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0E35153413F5BE54C427A804E97AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5448B2B52D65A9604DDCB088E663799D /* LXColorDarkMode.swift in Sources */,
+				6F14D0D40F53ACAA22ACE2DFBA13B121 /* LXDarkModeManager-dummy.m in Sources */,
+				9CE74057833F038BB28A4084ECA4078A /* LXImageDarkMode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7DAA507508812AC83BD45FB37E649E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E65AC57A0F3C30E946E17057F9BB49F /* LXCarKeyboard.swift in Sources */,
+				B69FAE9CECFA22CE79EE00C698F8B2D4 /* LXCarKeyboardManager-dummy.m in Sources */,
+				113C1CF61D58BB3EA052D87BEEAB6F94 /* LXCarKeyboardModel.swift in Sources */,
+				420D6203C3BA64DAD7E5E1FE6D066D4C /* LXString+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C0A2D7E63E4BC957F62B6DC9125574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9247EB0CC386C6478BFAE5AC2F8A2FF9 /* LXFit.swift in Sources */,
+				111AA6FB2E424B79F3C8D56675EC0694 /* LXFitManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EBE6BD9E669E7C0B2F9DFF6151F2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB8A54E4FCE833EDC633433AF14DB46 /* Pods-LXCarKeyboardModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B5416F6B6D5E0F3E9CBFAB7ACBE697A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXCarKeyboardManager;
+			target = 4714FE027266A6FDE6E50E23F725ED6F /* LXCarKeyboardManager */;
+			targetProxy = 7C9EDC08B51BCC27DCDFD3C119FCEA8D /* PBXContainerItemProxy */;
+		};
+		225ADE781CFCBC87D92F8D10AD141BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXFitManager;
+			target = 8ED050C8B9768109B203E0B9CBBCAEC1 /* LXFitManager */;
+			targetProxy = 3E1D82CF5CB1A474D4D50DE378B11D9D /* PBXContainerItemProxy */;
+		};
+		6797E9C7BB9A559029A0F5B0B5760D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXDarkModeManager;
+			target = A6AAC99605E8CC7AFBBF9C1EEA0ED18B /* LXDarkModeManager */;
+			targetProxy = 8BEACED6E02F72297038E3D4E45A3D45 /* PBXContainerItemProxy */;
+		};
+		CE41F1D8A0AB221D6DF5527FFF654BB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXFitManager;
+			target = 8ED050C8B9768109B203E0B9CBBCAEC1 /* LXFitManager */;
+			targetProxy = 80BEC1B909DB2B8C4EDF9146F52F07AC /* PBXContainerItemProxy */;
+		};
+		EDF521BAEBDEB331909B3B582DE98147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXDarkModeManager;
+			target = A6AAC99605E8CC7AFBBF9C1EEA0ED18B /* LXDarkModeManager */;
+			targetProxy = 9C882BAEDC5E47336003BD1BEF3B196F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E02FC9A3B163E36EBA7F147E49B2786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3561DADACB7782F892C1401C5D978569 /* LXFitManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXFitManager/LXFitManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXFitManager/LXFitManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXFitManager/LXFitManager.modulemap";
+				PRODUCT_MODULE_NAME = LXFitManager;
+				PRODUCT_NAME = LXFitManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1034E73DFE4F2558D20252F05D259483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A043A847DE36ED2340CE67E98549D43 /* LXCarKeyboardManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXCarKeyboardManager/LXCarKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXCarKeyboardManager/LXCarKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXCarKeyboardManager/LXCarKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = LXCarKeyboardManager;
+				PRODUCT_NAME = LXCarKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		469E15433CB5B2FBCDBA62E8B0D897EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57D2B3DE91845AEC15343F6E0502133 /* Pods-LXCarKeyboardModule.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8210A4A0CFC6BBEA29F83024DC094A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12912492A87D6B4AEE8AB3CD3F0D2FF0 /* Pods-LXCarKeyboardModule.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A61B3362B492E1F857E184390AD044AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70730F90866A38CBA7DF16EB396576D /* LXFitManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXFitManager/LXFitManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXFitManager/LXFitManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXFitManager/LXFitManager.modulemap";
+				PRODUCT_MODULE_NAME = LXFitManager;
+				PRODUCT_NAME = LXFitManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDDD3F62F5D9271990BF331AD11190FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E9A897F0A039D8074ADDA59AA08DF3 /* LXCarKeyboardManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXCarKeyboardManager/LXCarKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXCarKeyboardManager/LXCarKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXCarKeyboardManager/LXCarKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = LXCarKeyboardManager;
+				PRODUCT_NAME = LXCarKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1C5161F2CBB9F794AE119A3721A40BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC32F5D381779FA4043924470A759B0A /* LXDarkModeManager.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXDarkModeManager/LXDarkModeManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXDarkModeManager/LXDarkModeManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXDarkModeManager/LXDarkModeManager.modulemap";
+				PRODUCT_MODULE_NAME = LXDarkModeManager;
+				PRODUCT_NAME = LXDarkModeManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6242D4FC31944DA14B4F1397EEB2A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F22FE6EF7E67134E4078EA972A1739 /* LXDarkModeManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXDarkModeManager/LXDarkModeManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXDarkModeManager/LXDarkModeManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LXDarkModeManager/LXDarkModeManager.modulemap";
+				PRODUCT_MODULE_NAME = LXDarkModeManager;
+				PRODUCT_NAME = LXDarkModeManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A3A7CC3679FCC21C706BAEC6FD677F /* Build configuration list for PBXNativeTarget "Pods-LXCarKeyboardModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469E15433CB5B2FBCDBA62E8B0D897EF /* Debug */,
+				8210A4A0CFC6BBEA29F83024DC094A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335972ED94DEB5F73E4038FDEDC9E2B9 /* Build configuration list for PBXNativeTarget "LXCarKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1034E73DFE4F2558D20252F05D259483 /* Debug */,
+				BDDD3F62F5D9271990BF331AD11190FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51FE9ABE16F910E0C6114423765BDE81 /* Build configuration list for PBXNativeTarget "LXDarkModeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6242D4FC31944DA14B4F1397EEB2A31 /* Debug */,
+				F1C5161F2CBB9F794AE119A3721A40BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5D3793CEF75745A3CF2357ED8A4741 /* Build configuration list for PBXNativeTarget "LXFitManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61B3362B492E1F857E184390AD044AE /* Debug */,
+				0E02FC9A3B163E36EBA7F147E49B2786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

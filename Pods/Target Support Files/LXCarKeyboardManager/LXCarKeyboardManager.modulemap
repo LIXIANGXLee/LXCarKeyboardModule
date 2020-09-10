@@ -1,0 +1,6 @@
+framework module LXCarKeyboardManager {
+  umbrella header "LXCarKeyboardManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

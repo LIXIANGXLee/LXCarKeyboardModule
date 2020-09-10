@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7612A640250A435E00DF90BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612A63F250A435E00DF90BF /* AppDelegate.swift */; };
-		7612A642250A435E00DF90BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612A641250A435E00DF90BF /* SceneDelegate.swift */; };
 		7612A644250A435E00DF90BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7612A643250A435E00DF90BF /* ViewController.swift */; };
 		7612A647250A435E00DF90BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7612A645250A435E00DF90BF /* Main.storyboard */; };
 		7612A649250A436100DF90BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7612A648250A436100DF90BF /* Assets.xcassets */; };
 		7612A64C250A436100DF90BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7612A64A250A436100DF90BF /* LaunchScreen.storyboard */; };
+		7612A65F250A56BC00DF90BF /* LXCarKeyboardManager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7612A65E250A56BC00DF90BF /* LXCarKeyboardManager.podspec */; };
+		A13E0E06B6C616BE29E40671 /* Pods_LXCarKeyboardModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97AAD9CF5E223F0A32C4509 /* Pods_LXCarKeyboardModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7612A63C250A435E00DF90BF /* LXCarKeyboardModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXCarKeyboardModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7612A63F250A435E00DF90BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7612A641250A435E00DF90BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7612A643250A435E00DF90BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7612A646250A435E00DF90BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7612A648250A436100DF90BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7612A64B250A436100DF90BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7612A64D250A436100DF90BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7612A65E250A56BC00DF90BF /* LXCarKeyboardManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LXCarKeyboardManager.podspec; sourceTree = "<group>"; };
+		8D09BDCDDC46EBC1BF98A56E /* Pods-LXCarKeyboardModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCarKeyboardModule.debug.xcconfig"; path = "Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule.debug.xcconfig"; sourceTree = "<group>"; };
+		B97AAD9CF5E223F0A32C4509 /* Pods_LXCarKeyboardModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXCarKeyboardModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D569CB742575FDA1D0ADD255 /* Pods-LXCarKeyboardModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCarKeyboardModule.release.xcconfig"; path = "Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13E0E06B6C616BE29E40671 /* Pods_LXCarKeyboardModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D5E26AA981785AC126229C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D09BDCDDC46EBC1BF98A56E /* Pods-LXCarKeyboardModule.debug.xcconfig */,
+				D569CB742575FDA1D0ADD255 /* Pods-LXCarKeyboardModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7612A633250A435E00DF90BF = {
 			isa = PBXGroup;
 			children = (
+				7612A65E250A56BC00DF90BF /* LXCarKeyboardManager.podspec */,
 				7612A63E250A435E00DF90BF /* LXCarKeyboardModule */,
 				7612A63D250A435E00DF90BF /* Products */,
+				5D5E26AA981785AC126229C0 /* Pods */,
+				8E73890BEA658417D33DD54C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				7612A63F250A435E00DF90BF /* AppDelegate.swift */,
-				7612A641250A435E00DF90BF /* SceneDelegate.swift */,
 				7612A643250A435E00DF90BF /* ViewController.swift */,
 				7612A645250A435E00DF90BF /* Main.storyboard */,
 				7612A648250A436100DF90BF /* Assets.xcassets */,
@@ -67,6 +83,14 @@
 			path = LXCarKeyboardModule;
 			sourceTree = "<group>";
 		};
+		8E73890BEA658417D33DD54C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B97AAD9CF5E223F0A32C4509 /* Pods_LXCarKeyboardModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7612A650250A436100DF90BF /* Build configuration list for PBXNativeTarget "LXCarKeyboardModule" */;
 			buildPhases = (
+				6D390BB1D3FF82207CF4DF45 /* [CP] Check Pods Manifest.lock */,
 				7612A638250A435E00DF90BF /* Sources */,
 				7612A639250A435E00DF90BF /* Frameworks */,
 				7612A63A250A435E00DF90BF /* Resources */,
+				0DF7B21A50405B855EA42A52 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +153,54 @@
 			files = (
 				7612A64C250A436100DF90BF /* LaunchScreen.storyboard in Resources */,
 				7612A649250A436100DF90BF /* Assets.xcassets in Resources */,
+				7612A65F250A56BC00DF90BF /* LXCarKeyboardManager.podspec in Resources */,
 				7612A647250A435E00DF90BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DF7B21A50405B855EA42A52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXCarKeyboardModule/Pods-LXCarKeyboardModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D390BB1D3FF82207CF4DF45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXCarKeyboardModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7612A638250A435E00DF90BF /* Sources */ = {
@@ -140,7 +209,6 @@
 			files = (
 				7612A644250A435E00DF90BF /* ViewController.swift in Sources */,
 				7612A640250A435E00DF90BF /* AppDelegate.swift in Sources */,
-				7612A642250A435E00DF90BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +350,7 @@
 		};
 		7612A651250A436100DF90BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D09BDCDDC46EBC1BF98A56E /* Pods-LXCarKeyboardModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +368,7 @@
 		};
 		7612A652250A436100DF90BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D569CB742575FDA1D0ADD255 /* Pods-LXCarKeyboardModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
