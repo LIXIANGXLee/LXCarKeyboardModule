@@ -1,5 +1,5 @@
 PODS:
-  - LXCarKeyboardManager (1.0.0):
+  - LXCarKeyboardManager (1.1.0):
     - LXDarkModeManager
     - LXFitManager
   - LXDarkModeManager (1.3.0)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  LXCarKeyboardManager: 041ab85e61592f6f955cd6280519e560eb8d4784
+  LXCarKeyboardManager: 1771f90465b999329a588cadd76cfe59442d3b5a
   LXDarkModeManager: 6b40cca9ab71661b164adeb8bc2218fd67aac955
   LXFitManager: d76fa8e60a899fccf87c66fe33e19479e1d64906
 
