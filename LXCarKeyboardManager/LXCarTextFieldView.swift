@@ -140,6 +140,7 @@ extension LXCarTextFieldView: UITextFieldDelegate{
     public func textFieldShouldClear(_ textField: UITextField) -> Bool {
         self.numberTextField.text = ""
         self.textStr = ""
+        carKeyboard.delegate?.carKeyboardDidChangeWithText(textStr: self.textStr)
         return true
     }
 }
