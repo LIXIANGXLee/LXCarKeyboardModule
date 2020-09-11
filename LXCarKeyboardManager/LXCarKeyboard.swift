@@ -72,18 +72,13 @@ public class LXCarKeyboard: UIView {
     ///排列省按钮位置
     private func setProvinceInputViewBtn() {
         for i in 0..<provinceDatas.count {
-            let btn: UIButton = UIButton(type: .custom)
+            let btn: UIButton = LXCarButton(type: .custom)
             provinceInputView.addSubview(btn)
-            btn.backgroundColor = UIColor.white
             btn.setTitle(provinceDatas[i], for: .normal)
-            btn.setTitleColor(UIColor(hex: "263245"), for: .normal)
-            btn.setTitleColor(UIColor(hex: "FFAC54"), for: .highlighted)
-            btn.titleLabel?.font = UIFont.systemFont(ofSize: 16).fitFont
             btn.accessibilityIdentifier = provinceDatas[i]
             btn.addTarget(self, action: #selector(btnClick(sender:)), for: .touchUpInside)
-            btn.layer.cornerRadius = 3
             btn.tag = i + 10
-            //位置排列
+            ///位置排列
             var horizontal: Int = 0
             var vertical: Int = 0
             if i < 20 {
@@ -105,18 +100,13 @@ public class LXCarKeyboard: UIView {
     ///排列字母和数字按钮位置
     private func setNumInputViewBtn() {
         for i in 0..<numDatas.count {
-            let btn: UIButton = UIButton(type: .custom)
+            let btn: UIButton = LXCarButton(type: .custom)
             numInputView.addSubview(btn)
-            btn.backgroundColor = UIColor.white
             btn.setTitle(numDatas[i], for: .normal)
-            btn.setTitleColor(UIColor(hex: "263245"), for: .normal)
-            btn.setTitleColor(UIColor(hex: "FFAC54"), for: .highlighted)
-            btn.titleLabel?.font = UIFont.systemFont(ofSize: 16).fitFont
             btn.accessibilityIdentifier = numDatas[i]
             btn.addTarget(self, action: #selector(btnClick(sender:)), for: .touchUpInside)
-            btn.layer.cornerRadius = 3
             btn.tag = i + 100
-            //位置排列
+            ///位置排列
             var horizontal: Int = 0
             var vertical: Int = 0
             if i < 30 {
@@ -228,5 +218,22 @@ public class LXCarKeyboard: UIView {
             }
             delegate?.carKeyboardDidChangeWithText(textStr: textField.text ?? "")
         }
+    }
+}
+
+class LXCarButton: UIButton {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+
+        backgroundColor = UIColor.white
+        setTitleColor(UIColor(hex: "263245"), for: .normal)
+        setTitleColor(UIColor(hex: "FFAC54"), for: .highlighted)
+        titleLabel?.font = UIFont.systemFont(ofSize: 16).fitFont
+        layer.cornerRadius = 3
+
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }

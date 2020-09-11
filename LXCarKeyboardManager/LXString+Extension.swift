@@ -31,4 +31,24 @@ extension String {
         let results = regex?.matches(in: self, options: NSRegularExpression.MatchingOptions.init(rawValue: 0), range: NSMakeRange(0, self.count))
         return results
     }
+    
+    /// 返回字符串子串
+    internal func substring(to index: Int) -> String {
+        return substring(from: 0, to: index)
+    }
+    
+    /// 返回字符串子串
+    ///
+    /// - Parameters:
+    ///   - sIndex: 开始位置
+    ///   - eIndex: 结束位置
+    internal func substring(from sIndex: Int, to eIndex: Int) -> String {
+        if sIndex < eIndex && eIndex < self.count && sIndex >= 0 {
+            let startIndex = self.index(self.startIndex, offsetBy: sIndex)
+            let endIndex = self.index(self.startIndex, offsetBy: eIndex)
+            return String(self[startIndex..<endIndex])
+        }else{
+            return self
+        }
+    }
 }

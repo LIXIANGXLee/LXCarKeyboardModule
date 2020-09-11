@@ -11,42 +11,50 @@ import LXDarkModeManager
 import LXCarKeyboardManager
 
 class ViewController: UIViewController {
-    private let carKeyboard = LXCarKeyboard()
 
     
-    private lazy var carNumberTextField: UITextField = {
-        var carNumberTextField = UITextField(frame: CGRect(x: 10, y: 100, width: 300, height: 40))
-        carNumberTextField.placeholder = "请输入车牌号"
-        carNumberTextField.font = UIFont.systemFont(ofSize: 18)
-        carNumberTextField.textColor = UIColor(hex: "263245")
-        carNumberTextField.clearButtonMode = .whileEditing
-        carNumberTextField.inputView = carKeyboard
+    private lazy var carTextFieldView: LXCarTextFieldView = {
+        var carTextFieldView = LXCarTextFieldView()
+//        carTextFieldView.backgroundColor = UIColor.green
+        carTextFieldView.delegate = self
+        carTextFieldView.frame = CGRect(x: 20, y: 100, width: 300, height: 40)
         
-//        carNumberTextField.delegate = self
-        return carNumberTextField
+        return carTextFieldView
     }()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        carKeyboard.delegate = self
+        carTextFieldView.set(placeholder: "请输入车牌号", placeholderColor: "e2e2e2")
+        view.addSubview(carTextFieldView)    
+        carTextFieldView.paddingEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 30)
         
         self.view.backgroundColor = UIColor.white
         
-        view.addSubview(carNumberTextField)
         
+        carTextFieldView.setHandle { (textStr) in
+            print("--------\(textStr)")
+        }
         
     }
 
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("-=-=-=--=-=-=-=\(carTextFieldView.textStr)==\(carTextFieldView.isValidCarid())")
+        
+        carTextFieldView.isResignFirstResponder()
+    }
 
 }
 
-extension ViewController: LXCarKeyboardDelegate {
-    func carKeyboardDidChangeWithText(textStr: String) {
-       
-        print("=======\(textStr)")
+extension ViewController: LXCarTextFieldViewDelegate {
+    
+    func carTextFieldView(textStr: String) {
+                print("=======\(textStr)")
+
     }
+   
 }
 
 
